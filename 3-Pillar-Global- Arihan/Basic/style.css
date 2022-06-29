@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+#mm{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal !important;
+    margin: auto;
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    font-weight: 700;
+}
+#cont{
+    text-align: justify;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 90%;
+    line-height: 200%;
+}
+#boxes{
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+#box1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    text-align: center;
+    width: 200px;
+    margin-right: 50px;
+    border-style:solid;
+    border-color: #C1C1C1;
+    background-color: #d3d3d3;
+}
+
+#box2{
+    margin-right: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    width: 200px;
+    border-style:solid;
+    border-color: #C1C1C1;
+    background-color: #d3d3d3;
+    
+}
+#box3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    width: 200px;
+    margin-right: 50px;
+    border-style:solid;
+    border-color: #C1C1C1;
+    background-color: #d3d3d3;
+    
+}
+
+#box1:hover{
+    background-color: pink;
+}
+#box2:hover{
+    background-color: pink;
+}
+#box3:hover{
+    background-color: pink;
+}
+
+
+#pink{
+    height: 60px;
+    width: 100%;
+    background-color: pink;
+    display: flex;
+    align-items: center;
+    
+}
+.change{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-style: normal !important;
+
+}
+.heading{
+    font-family: 'Poppins', sans-serif ;
+    font-size: 40px;
+    letter-spacing: 6px;
+}
+.lng{
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    font-style: normal !important;
+    font-weight: 700;
+    color: blue;
+}
+
+@media only screen and (max-width: 1024px) {
+
+    #mm {
+      width: 85%;
+    }
+  }

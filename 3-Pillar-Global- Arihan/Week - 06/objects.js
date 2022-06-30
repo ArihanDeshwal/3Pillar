@@ -1,6 +1,6 @@
 let personAccount = {
-    firstName: "Shanmukh",
-    lastName: "Chowdary",
+    firstName: "Arihan",
+    lastName: "Deshwal",
     income: {
         freelancing: 10000,
         menialLabour: 2000

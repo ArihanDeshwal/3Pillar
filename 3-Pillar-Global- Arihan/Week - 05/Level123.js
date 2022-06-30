@@ -42,12 +42,12 @@ let secondsOld = yearsLive * secondsInYear;
 console.log(`you are ${secondsOld} seconds olds`)
 
 //truthy and falsy
-let truthy = [true, "Shanmukh", 3];
+let truthy = [true, "Arihan", 3];
 let falsy = [false, undefined, null];
 
 //ternary operator
-const firstName = "Shanmukh"
-const lastName = "Chowdary"
+const firstName = "Arihan"
+const lastName = "Deshwal"
 firstName.length > lastName.length ? console.log(`your first Name is greater than your family name`) : console.log(`your last name is greater than your name`);
 
 //allowed to drive

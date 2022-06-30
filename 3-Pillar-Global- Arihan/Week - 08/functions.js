@@ -1,12 +1,12 @@
 function fullName() {
-    console.log("Shanmukh Chowdary")
+    console.log("Arihan Deshwal")
 }
 fullName()
 
 function fullName(firstName, lastName) {
     return `${firstName} ${lastName}`;
 }
-fullName("Shanmukh", "Chowdary");
+fullName("Arihan", "Deshwal");
 
 function addNumbers(a, b) {
     return a + b;
@@ -152,10 +152,10 @@ capitalizeArr = (arr) => {
     })
     return newArr;
 }
-capitalizeArr(["Shanmukh", "Chowdary"]);
+capitalizeArr(["Arihan", "Deshwal"]);
 
 removeitem = (index) => {
-    let names = ["Shanmukh", "Chowdary"]
+    let names = ["Arihan", "Deshwal"]
     names.splice(index);
     return names
 }
